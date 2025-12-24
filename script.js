@@ -1,5 +1,9 @@
 function minDate(dates) {
   //write you code here
+	return dates.reduce((accu,current)=>{
+		return accu<current?accu:current
+	})
+	
 }
 
 // Do not change the code
